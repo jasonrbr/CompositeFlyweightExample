@@ -5,11 +5,11 @@ public abstract class Product {
     public abstract float GetPrice();
 
     public void AddItem(Product p) throws RuntimeException {
-        throw RuntimeException("AddItem not allowed on class ${this.class.name}")
+        throw new RuntimeException("AddItem not allowed on class ${this.class.name}")
     }
 
     public void RemoveItem(Product p) throws RuntimeException {
-        throw RuntimeException("RemoveItem not allowed on class ${this.class.name}")
+        throw new RuntimeException("RemoveItem not allowed on class ${this.class.name}")
     }
 }
 
