@@ -62,7 +62,6 @@ public class Box extends Product {
 
 def receipt = new Receipt(["phone", "phone case"])
 def phone = new Phone()
-def phone2 = new Phone()
 def phoneCase = new PhoneCase()
 def packingChips = new FoamPeanuts()
 def box = new Box()
