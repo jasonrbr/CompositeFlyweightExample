@@ -45,7 +45,7 @@ class EmployeeFactory {
 }
 
 def director = EmployeeFactory.CreateEmployee('Director')
-def dariusContext = new EmployeeContext(name: 'Darius', project: 'Cool Modernizing Insurance')
+def dariusContext = new EmployeeContext(name: 'Darius', project: 'On the call for Modernizing Insurance')
 def mattContext = new EmployeeContext(name: 'Matt', project: 'Very Awesome Data Modernizing')
 def priContext = new EmployeeContext(name: 'Pri', project: 'Silly Canadian Insurance')
 def jeffContext = new EmployeeContext(name: 'Jeff', project: 'Boring Healthcare Project')
